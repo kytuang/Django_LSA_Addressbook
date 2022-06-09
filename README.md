@@ -11,13 +11,13 @@ Clone the Project
 ```bash
   1. Open Terminal, 
   2. "CD" to a folder of your choosing
-  3. run "git clone https://github.com/asapkyxy/addressbook_test/tree/main.git"
+  3. run "git clone https://github.com/asapkyxy/Django_LSA_Addressbook.git"
   4. project should be cloned.
 ```
 
 Set up virtual env and activate
 ```bash
-  1. CD the name of the project "cd addressbook1"
+  1. CD the name of the project "cd Django_LSA_Addressbook"
   2. run sudo pip install virtualenv
   3. virtualenv env
   4. source env/bin/activate
