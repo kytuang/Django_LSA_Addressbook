@@ -30,8 +30,8 @@ Run the server
 
 ## Demo The Project
 1. Register Page - use username and password meeting the requirements listed
-(Images/Register.png)
+![Picture](Images/Register.png)
 2. Homepage
-(Images/HomePage-AddressBook_lists.png)
+![Picture](Images/HomePage-AddressBook_lists.png)
 4. Homepage with all functionality
 
