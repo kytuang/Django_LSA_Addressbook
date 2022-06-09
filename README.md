@@ -18,9 +18,9 @@ Clone the Project
 Set up virtual env and activate
 ```bash
   1. CD the name of the project "cd Django_LSA_Addressbook"
-  2. run sudo pip install virtualenv
-  3. virtualenv env
-  4. source env/bin/activate
+  2. python3 -m venv env
+  3. source env/bin/activate
+  4. pip install django
   5. you should be be directed to (env) enviroment
 ```
 
