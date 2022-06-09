@@ -36,12 +36,12 @@ OR click register to create a new account and make a complete new list.
 2. Homepage
 ![Picture](Images/HomePage-AddressBook_lists.png)
 
-3. Homepage with all functionalities
-![Picture](Images/all_functionality.png)
-
-4. Update or create new List
+3. Update or create new List
 ![Picture](Images/updatecreate_lists.png)
 
-5. Are you use you want to delete?
+4. Are you use you want to delete?
 ![Picture](Images/Delete_confirm.png)
+
+5. Homepage with all functionalities
+![Picture](Images/all_functionality.png)
 
