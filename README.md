@@ -20,7 +20,7 @@ Set up virtual env and run
   2. python3 -m venv env
   3. source env/bin/activate
   4. you should be be directed to (env) enviroment
-  5. pip3 install -r requirements.txt ( if experiencing issues run this first: pip3 install --upgrade pip)
+  5. pip3 install -r requirements.txt (or ```run python3 install django``` to get the latest django)
 ```
 Run the server
 ```bash
