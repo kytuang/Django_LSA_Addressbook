@@ -17,7 +17,7 @@ Clone the Project
 Set up virtual env and run
 ```bash
   1. go the project folder --> run `cd Django_LSA_Addressbook`
-  2. run: `python3 -m venv env` create virtual env
+  2. run: `python3 -m venv env` create virtual env (or run `sudo pip install virtualenv`)
   3. run: `source env/bin/activate` activate env
   4. you should be be directed to (env) enviroment
   5. run: `pip3 install -r requirements.txt` (or run `python3 install django` to get the latest django)
