@@ -19,9 +19,8 @@ Set up virtual env and run
   1. CD the name of the project "cd Django_LSA_Addressbook"
   2. python3 -m venv env
   3. source env/bin/activate
-  4. pip install django
-  5. you should be be directed to (env) enviroment
-  6. pip3 install -r requirements.txt ( if experiencing issues run this first: pip3 install --upgrade pip)
+  4. you should be be directed to (env) enviroment
+  5. pip3 install -r requirements.txt ( if experiencing issues run this first: pip3 install --upgrade pip)
 ```
 Run the server
 ```bash
