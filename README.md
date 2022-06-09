@@ -40,7 +40,7 @@ OR click register to create a new account and make a complete new list.
 ![Picture](Images/all_functionality.png)
 
 4. Update or create new List
-![Picture](Images/updatecreate_list.png)
+![Picture](Images/updatecreate_lists.png)
 
 5. Are you use you want to delete?
 ![Picture](Images/Delete_confirm.png)
