@@ -28,3 +28,10 @@ Run the server
   2. cmd + click server link:  https://127.0.0.1:8000/
 ```
 
+## Demo The Project
+1. Register Page - use username and password meeting the requirements listed
+(Images/Register.png)
+2. Homepage
+(Images/HomePage-AddressBook_lists.png)
+4. Homepage with all functionality
+
