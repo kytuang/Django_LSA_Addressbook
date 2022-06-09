@@ -1,0 +1,29 @@
+
+{%extends "index/base.html"%}
+
+{%block body%}
+
+<!-- navbar1 with back button title to create/update addressbook-->
+<nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+
+        <a class="btn btn-success" role="button" href="{% url 'addressbooks' %}"> BACK </a>
+        <h3 class="mx-auto">Create/Update the Addressbook</h3>
+
+    </div>
+</nav>
+
+    <!-- div class to pass the django built-in registration form-->
+    <div class="text-center">
+        <form method="POST" action="">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input class="btn btn-primary" type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
+{%endblock body%}
+
+

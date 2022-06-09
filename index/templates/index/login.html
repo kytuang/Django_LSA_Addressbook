@@ -1,0 +1,22 @@
+{%extends "index/base.html"%}
+
+{%block body%}
+
+<!--This is the django login built-in form -->
+<div class="text-center">
+    <form method="POST">
+        <h1> Login </h1>
+        
+        {% csrf_token %}
+        {{form.as_p}}
+
+        <input class="btn btn-outline-success" type="submit" value="Login">
+    </form>
+
+<br>
+        <p>Don't have an account?</p>
+            <a class="btn btn-outline-primary" href="{% url 'register' %}">Register</a>
+
+</div>
+
+{%endblock body%}

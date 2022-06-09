@@ -1,0 +1,28 @@
+<!-- this is delete confirm url where you can delete or cancel-->
+{%extends "index/base.html"%}
+
+
+{%block body%}
+    <!-- navbar 1 with back button and are you sure message-->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="btn btn-success" role="button" href="{% url 'addressbooks' %}"> BACK </a>
+            <h2 class="mx-auto">Are you sure you wish to delete this addressbook? </h2>
+        </div>
+    </nav>
+    <!-- navbar 2 with name output-->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+            <h3 class="mx-auto"> Name: {{object.first_name}}&nbsp;{{object.last_name}} </h3>
+        </nav>
+
+    <!-- navbar 3 with POST method with delete button or cancel-->
+    <nav class="text-center">
+        <form method="POST">
+        {% csrf_token %}
+            <input class="btn btn-outline-danger " type="submit" value="Delete"></input>
+            <a class="btn btn-outline-dark" role="button" href="{% url 'addressbooks' %}"> Cancel </a>
+        </form>
+    </nav>
+
+{%endblock body%}

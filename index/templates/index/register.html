@@ -1,0 +1,21 @@
+
+{%extends "index/base.html"%}
+
+{%block body%}
+
+<!--This is the django registration built-in form -->
+<h1> Register </h1>
+    <form method="POST">
+
+        {% csrf_token %}
+        {{form.as_p}}
+
+        <input class="btn btn-primary" type="submit" value="Register">
+
+    </form> 
+
+<!--in case user already have an account, url to login page -->
+<p>Already have an account?</p> 
+<a href={% url 'login' %}>Login</a>
+
+{% endblock body%}
