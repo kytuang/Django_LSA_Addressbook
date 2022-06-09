@@ -29,9 +29,18 @@ Run the server
 ```
 
 ## Demo The Project
-1. Register Page - use username and password meeting the requirements listed
-![Picture](Images/Register.png)
+1. Login with username and password (feel use to test Username: `khai` Password: `indianahouse`)
+![Picture](Images/Login.png)
+
 2. Homepage
 ![Picture](Images/HomePage-AddressBook_lists.png)
-4. Homepage with all functionality
+
+3. Homepage with all functionalities
+![Picture](Images/all functionality.png)
+
+4. Update or create new List
+![Picture](Images/Update:create addressbook.png)
+
+5. Are you use you want to delete?
+![Picture](Images/Delete_confirm.png)
 
