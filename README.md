@@ -7,7 +7,6 @@
 ## To Run The Project
 
 Clone the Project
-
 ```bash
   1. Open Terminal, 
   2. "CD" to a folder of your choosing
@@ -25,8 +24,6 @@ Set up virtual env and run
   6. pip3 install -r requirements.txt ( if experiencing issues run this first: pip3 install --upgrade pip)
 ```
 Run the server
-
-Install current versions and run
 ```bash
   1. Python3 manage.py runserver
   2. cmd + click server link:  https://127.0.0.1:8000/
