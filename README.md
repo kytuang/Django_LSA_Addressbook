@@ -30,6 +30,7 @@ Run the server
 
 ## Demo The Project
 1. Login with username and password (feel use to test Username: `khai` Password: `indianahouse`)
+OR click register to create a new account and make a complete new list.
 ![Picture](Images/Login.png)
 
 2. Homepage
