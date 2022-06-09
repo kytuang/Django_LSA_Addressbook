@@ -8,19 +8,19 @@
 
 Clone the Project
 ```bash
-  1. Open Terminal, 
-  2. "CD" to a folder of your choosing
-  3. run "git clone https://github.com/asapkyxy/Django_LSA_Addressbook.git"
-  4. project should be cloned.
+  1. Open VS code Terminal 
+  2. cd to a folder of your choosing
+  3. run `git clone https://github.com/asapkyxy/Django_LSA_Addressbook.git`
+  4. project should get loaded and cloned.
 ```
 
 Set up virtual env and run
 ```bash
-  1. CD the name of the project "cd Django_LSA_Addressbook"
-  2. python3 -m venv env
-  3. source env/bin/activate
+  1. go the project folder --> run `cd Django_LSA_Addressbook`
+  2. run: `python3 -m venv env` create virtual env
+  3. run: `source env/bin/activate` activate env
   4. you should be be directed to (env) enviroment
-  5. pip3 install -r requirements.txt (or ```run python3 install django``` to get the latest django)
+  5. run: `pip3 install -r requirements.txt` (or `run python3 install django` to get the latest django)
 ```
 Run the server
 ```bash
