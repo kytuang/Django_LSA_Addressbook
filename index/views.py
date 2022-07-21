@@ -11,7 +11,7 @@ from django.db.models import Q
 
 from django.contrib.auth.mixins import LoginRequiredMixin #restricting users
 
-# Class based views within Django
+#Class based views within Django
 
 #List all of the addressbooks in "home" or booklist.html
 class BookList(LoginRequiredMixin, ListView):
