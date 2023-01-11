@@ -10,7 +10,7 @@ Clone the Project
 ```bash
   1. Open Terminal 
   2. cd to a folder of your choosing
-  3. run `git clone https://github.com/asapkyxy/Django_LSA_Addressbook.git`
+  3. run `git clone https://github.com/kytuang/Django_LSA_Addressbook.git`
   4. project should get loaded and cloned.
 ```
 
